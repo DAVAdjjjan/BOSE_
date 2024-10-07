@@ -19,6 +19,12 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 640px) {
+  .menu_icon{
+    filter: invert(1) sepia(1) 
+  }
+}
+
 .header {
   background-image: url(images/header-bg.png);
   justify-content: space-between;
